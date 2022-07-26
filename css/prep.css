@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  text-align: none;
+  color: black;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  padding: 10px 100px;
+  font-size: 16px;
+}
+@media screen and (max-width: 280px) {
+  .container {
+    padding: 10px 3px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 10px 40px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 10px 80px;
+  }
+}

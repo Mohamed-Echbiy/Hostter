@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@300;400;500;700;900&family=Titan+One&display=swap");
+
+/* start styling the logo  */
+* {
+  box-sizing: border-box;
+}
+:root {
+  --btn-color: rgb(255, 111, 0);
+  --main: rgb(255, 234, 239);
+}
+body {
+  background-color: var(--main);
+}
+nav span svg {
+  width: 30px;
+  height: 30px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo .main-btn {
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  font-size: 12px;
+  background-color: var(--btn-color);
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #6c757d;
+}
+a:hover {
+  color: #ff5722;
+}
+
+/* end of styling the logo */
+
+/* start styling landing page */
+
+.landing-page {
+  width: 100%;
+  min-height: calc(100vh - 156px);
+}
+.imagecontainer {
+  width: 49%;
+  min-width: 200px;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.imageArea {
+  position: relative;
+  width: 350px;
+  min-width: 200px;
+  min-height: 401px;
+}
+.imageArea img {
+  position: absolute;
+  width: 100%;
+  min-width: 200px;
+  left: 0%;
+  top: 0;
+}
+/* ------ */
+
+.lastone {
+  transform: rotate(317deg);
+}
+.third {
+  transform: rotate(328deg);
+}
+.seconde {
+  transform: rotate(345deg);
+}
+/* ------- */
+.textArea {
+  width: 49%;
+  min-width: 300px;
+}
+.textArea h1 {
+  font-size: 3.5rem;
+}
+.textArea p {
+  margin-top: 10px;
+}
+.textArea input {
+  /* -webkit-appearance: none; */
+  outline: 0px;
+  border: none;
+  padding: 5px;
+}
+.bottomofthehero {
+  min-width: 100%;
+}
+
+@media (max-width: 993px) {
+  .imagecontainer,
+  .textArea {
+    margin: 0px auto;
+  }
+  .imagecontainer {
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .textArea {
+    order: 1;
+    width: 80%;
+    margin-top: 20px;
+  }
+  .landing-page {
+    min-height: calc(100vh - 156px);
+  }
+}
+/* end of styling landing page */
+/* stat styling plans section */
+
+.plansSection {
+  margin-top: 200px;
+}
+.plansSection h2 {
+  text-align: center;
+  font-family: "Titan One", cursive;
+  background-color: orangered;
+}
+.plansSection .card {
+}
+.plansSection .card .card-body {
+}
+.plansSection .card .card-body .Price {
+  background-color: rgb(0, 0, 0);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  color: white;
+}
+.plansSection .card .card-body .Price span {
+  font-weight: 300;
+  color: #98a2ab;
+  font-size: 0.7rem;
+}
